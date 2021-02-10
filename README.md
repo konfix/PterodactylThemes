@@ -43,10 +43,10 @@ You simple follow the instructions below, mainly consisting of two or three chan
 
 
 ## Rebuild
-#Install Dependencies
+# Install Dependencies
 The following commands will install the necessary dependencies for building your panel.
 
-#Install NodeJS
+# Install NodeJS
 TIP
 
 You may have to add sudo to the following commands if you are not root.
