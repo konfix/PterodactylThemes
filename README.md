@@ -11,6 +11,8 @@ How do i use them?
 You simple follow the instructions below, mainly consisting of two or three changes you need to make before you build your panel.
 
 ## Install Theme
+You can either manually install them OR, you can use my friend neon's install scripts for them:
+https://github.com/WeLikeToCodeStuff/ptero-1.0-theme-install
 # User Side
 Create a file called main.css in `/var/www/pterodactyl/resources/scripts`
 
