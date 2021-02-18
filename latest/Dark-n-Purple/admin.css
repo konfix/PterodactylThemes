@@ -694,7 +694,7 @@ textarea.form-control, input.form-control {
 
 .select2-container--open .select2-dropdown--below {
 	margin-top: .25vw !important; 
-	border: none !important
+	border: none !important;
 	border-radius: 15px !important;
 }
 
