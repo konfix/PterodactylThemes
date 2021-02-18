@@ -712,8 +712,3 @@ textarea.form-control, input.form-control {
 	display: none !important;
 }
 
-/* Fixes eula overflow */
-
-.ekHIsr {
-	overflow: hidden !important;
-}
