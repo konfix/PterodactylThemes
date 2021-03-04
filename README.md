@@ -68,8 +68,11 @@ By now, you should have NodeJS 12 installed. Make sure this is the case by check
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash`
 
 `nvm install node`
+
 `nvm alias default node`
+
 `nvm use node`
+
 `node -v` should say 12.20.0 or newer
 
 # Install Yarn and Panel Dependencies
@@ -81,6 +84,8 @@ By now, you should have NodeJS 12 installed. Make sure this is the case by check
 
 # Installs panel build dependencies
 `yarn install`
+`yarn add @emotion/react`
+
 #Build Panel
 Run this in your panel directory to apply changes (usually` /var/www/pterodactyl`)
 
