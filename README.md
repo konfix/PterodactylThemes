@@ -13,6 +13,8 @@ You simple follow the instructions below, mainly consisting of two or three chan
 ## Install Theme
 You can either manually install them OR, you can use my friend neon's install scripts for them:
 https://github.com/WeLikeToCodeStuff/ptero-1.0-theme-install
+If you install the theme with the community made install script no support will be given. Please debug your error with the official install instructions that are below.
+
 # User Side
 Create a file called main.css in `/var/www/pterodactyl/resources/scripts`
 
