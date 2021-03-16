@@ -526,7 +526,7 @@ hr {
 
 .fPcGHZ:not([type="checkbox"]):not([type="radio"]) {
 	border-color: var(--accent-color) !important;
-	background-color: var(--secondary-bg-color-alt) !important;
+	background-color: var(--secondary-bg-color-alt); !important;
 	border-radius: var(--border-radius) !important;	
 }
 
@@ -706,9 +706,13 @@ textarea.form-control, input.form-control {
 	border-radius: 15px !important;
 	background: transparent !important;
 	border: none !important;
+
 }
 
 .select2-results__options::-webkit-scrollbar, .select2-results::-webkit-scrollbar {
 	display: none !important;
 }
 
+::-webkit-scrollbar {
+	display: none !important;
+}
