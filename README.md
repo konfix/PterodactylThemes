@@ -1,5 +1,5 @@
 # PteroThemes
- Themes for Pterodactyl 1.x (most made by notil)
+ Themes for Pterodactyl 1.x
 
 ## Will this break my panel? (IMPORTANT)
 This will not break your panel unless you use a diffrent theme version for a diffrent panel version, if it for some reason does break your panel it is simple to remove the theme.
@@ -95,24 +95,24 @@ Run this in your panel directory to apply changes (usually` /var/www/pterodactyl
 # Build panel
 yarn build:production
 
-## Enola - 1.2.0, 1.2.1, and 1.2.2
+## Enola
 Instructions to install the theme Enola are here
-[Enola 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Enola)
+[Enola (Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Enola)
 ![Preview](./preview/enola.png)
 
 
-## Twilight - 1.1.3, 1.2.0, 1.2.1, 1.2.2
+## Twilight
 Instructions to install the theme Twilight are here
-[Enola 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Twilight)
+[Enola (Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Twilight)
 ![Preview](./preview/twilight.png)
 
-## Recolor - 1.2.0, 1.2.1, 1.2.2
+## Recolor
 This theme is a recolor of the panel that you can edit, more information here
 [Recolor](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Recolor)
 
-## Dark-n-Purple - 1.2.0, 1.2.1, 1.2.2
+## Dark-n-Purple
 This theme is a recolor of the panel that you can edit, more information here
-[Darn-n-Purple 1.2.2(Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Dark-n-Purple)
+[Darn-n-Purple (Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Dark-n-Purple)
 ![Preview](./preview/Dracula.png)
 ![Preview](./preview/Dracula2.png)
-## If you have suggestions or issues dm me on discord, Oreo#0949
+## If you have suggestions or issues dm notil.#2387 on discord!
