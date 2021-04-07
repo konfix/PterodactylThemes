@@ -115,4 +115,4 @@ This theme is a recolor of the panel that you can edit, more information here
 [Darn-n-Purple (Latest Panel Version)](https://github.com/OreoKitten/PteroThemes/tree/main/latest/Dark-n-Purple)
 ![Preview](./preview/Dracula.png)
 ![Preview](./preview/Dracula2.png)
-## If you have suggestions or issues dm notil.#2387 on discord!
+
