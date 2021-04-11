@@ -1,5 +1,5 @@
 # PteroThemes
- Themes for Pterodactyl 1.x
+ Themes for Pterodactyl 1.x, NON-maintained atm
 
 ## Will this break my panel? (IMPORTANT)
 This will not break your panel unless you use a diffrent theme version for a diffrent panel version, if it for some reason does break your panel it is simple to remove the theme.
