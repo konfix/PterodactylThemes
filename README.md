@@ -1,38 +1,30 @@
-# PteroThemes
- Themes for Pterodactyl 1.x, NON-maintained atm
+# PteroThemes 🎨
+ Themes for Pterodactyl v1.x
 
-## Will this break my panel? (IMPORTANT)
-This will not break your panel unless you use a diffrent theme version for a diffrent panel version, if it for some reason does break your panel it is simple to remove the theme.
-
-## Panel Versioning
-Make sure that the theme you are installing corresponds with the version of the panel you are running; no help will be given if you have mismatched versions!
-
-How do i use them?
-You simple follow the instructions below, mainly consisting of two or three changes you need to make before you build your panel.
-
-## Install Theme
-You can either manually install them OR, you can use my friend neon's install scripts for them:
+## Automatic Installation
+Install them manually, or use this (outdated) script to install them automatically:
 https://github.com/WeLikeToCodeStuff/ptero-1.0-theme-install
-If you install the theme with the community made install script no support will be given. Please debug your error with the official install instructions that are below.
 
-# User Side
+# Manual Installation
+Follow this guide to manually install themes:
+
+## User Panel
 Create a file called main.css in `/var/www/pterodactyl/resources/scripts`
 
 In that file put this text
 
 ```@import url(https://oreokitten.github.io/latest/dark-n-purple/user.css);```
 
-
-After that edit the file index.tsx in /var/www/pterodactyl/resources/scripts
+After that edit the file **index.tsx** in /var/www/pterodactyl/resources/scripts
 
 On line 6 at the end of the imports add this
 
 ```import './main.css';```
 After this build the panel, you can find information of how to do that scroll down
 
-After that just reload your panel and the theme is applied.
+After building just reload your panel and the theme is applied.
 
-# Admin Side
+# Admin Panel
 In the file admin.blade.php in `/var/www/pterodactyl/resources/views/layouts/`
 
 On line 36 put the text
@@ -40,13 +32,9 @@ On line 36 put the text
 
 After this build the panel, you can find information of how to do that scroll down
 
-After that just reload your panel and the theme is applied.
+After building just reload your panel and the theme is applied.
 
-How do i use them?
-You simple follow the instructions below, mainly consisting of two or three changes you need to make before you build your panel.
-
-
-## Rebuild
+## How to build panel?
 # Install Dependencies
 The following commands will install the necessary dependencies for building your panel.
 
@@ -82,7 +70,11 @@ By now, you should have NodeJS 12 installed. Make sure this is the case by check
 # Install yarn
 `npm i -g yarn`
 
-# Now you need to make sure you are in the panel directory
+# Speed up the proccess (Optional)
+You can run this command to speed up the proccess. If you choose to use it, this is your last step!
+`cd /var/www/pterodactyl && yarn install && yarn add @emotion/react && /var/www/pterodactyl`
+
+# If you didn't use command above, continue:
 `cd /var/www/pterodactyl`
 
 # Installs panel build dependencies
